@@ -1,0 +1,59 @@
+body {
+    background-color: #16161D;
+    margin: 0;
+}
+.title {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.title h1{
+  text-align: center;
+}
+.corpo{
+    font-family: Times;
+    color: crimson;
+}
+.corpo p{
+    background-color: #16161D;
+    margin-left: 10px;
+    height: 70%;
+    width: 90%;
+}
+hr {
+    color: red;
+}
+.pai {
+    color: darkblue;
+    border: darkblue 2px solid;
+}
+.pai > div{ 
+    color:green;
+    border: green 2px solid;
+    padding: 5px;
+    border-radius: 20px;
+}
+/*o '>' especifica uma div! */
+.pai div div {
+    color: red;
+    border:red 2px solid;
+    padding: 5px
+}
+/* repetir a informação div seleciona uma div dentro de uma div */
+.pai div div div {
+    color: yellow;
+    border: yellow 2px solid;
+}
+.caixa1 {
+background-color: blueviolet;
+}
+.caixa2{
+    background-color: aqua;
+}
+/*importante!*/
+.caixa1, .caixa2{
+    height: 50px;
+    width: 250px;
+    font-size: 40px;
+    font-family: Times;
+}

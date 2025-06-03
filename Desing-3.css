@@ -1,0 +1,94 @@
+/*
+Requisitos - 
+Páragrafo da cor vermelha;
+    ---
+
+Seletor = H1
+Atributo = Color
+Valor = Crimson
+*/
+*{
+    color: crimson;
+}
+body{
+    background: #0000001A;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(71, 0, 0, 1) 100%);
+    margin-left: 0%;
+    margin-top: 0%;
+    margin: 0%;    
+    margin-bottom: 0%;
+    height: 100vh;
+}
+.corpo{
+    font-family: arial;
+    color: crimson;
+}
+.corpo p{
+    background-color: #16161D;
+    margin-left: 10px;
+    height: 70%;
+    width: 90%;
+}
+.corpo p:hover{
+    background-color: rgb(82, 10, 10);
+}
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    color: Red;
+    justify-content: center;
+}
+.titulo h1{
+    text-align: center;
+}
+.titulo b{
+    background-color: rgb(71, 0, 0);
+    width: flex;
+    height: flex;
+    margin-left: 5px;
+    font-size: 50px;
+}
+h1{
+    text-align: center;
+    text-size-adjust: 20%;
+}
+img{
+    height: 200px;
+    width: 100px;
+    outline: 10px double red;
+    /* alguns tipos -
+    solid; 
+    double;
+    dashed;
+    dotted;
+    double;
+    inset;
+    outset; */
+}
+img:hover{
+    outline: 10px solid darkred;
+}
+hr{
+    color: rgb(71, 0, 0);
+}
+.opacitybox{
+    height: flex;
+    width: 100px;
+    opacity: 0.5;
+    background: #000000;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 102, 0, 1) 50%, rgba(255, 0, 0, 1) 100%);
+    margin-left: 50px;
+}
+.opacitybox p{
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+.opacitybox:hover{
+    width: 20%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    transition: 0.5s;
+}

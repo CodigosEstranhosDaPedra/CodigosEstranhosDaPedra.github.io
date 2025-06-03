@@ -1,0 +1,50 @@
+body {
+    background-color: #16161D;
+    margin: 0;
+}
+.title {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.title h1{
+  text-align: center;
+}
+.corpo{
+    font-family: Times;
+    color: crimson;
+}
+.corpo p{
+    background-color: #16161D;
+    margin-left: 10px;
+    height: 70%;
+    width: 90%;
+}
+hr {
+    color: red;
+}
+.container{
+    margin-left: 20%;
+    background-color: purple;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    /*ativa os seguintes*/
+    flex-direction:row ;
+    /*ou column*/
+    justify-content: center;
+    /*flex-start; flex end; space between; space-around; space evenly*/
+    align-items:center;
+    /*flex-start; flex-end; stretch; baseline*/
+    gap: 15px;
+    flex-wrap: wrap;
+    align-content: center;
+    /*flex-start; flex-end; stretch; space-between; space-around*/
+}
+.container div{
+    text-align: center;
+    background-color: orangered;
+    height: 50px;
+    width: 50px;
+}
+/*align-self: center| flex-start| flex-end| stretch*/
