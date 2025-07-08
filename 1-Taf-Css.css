@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(244, 240, 219);
+}
+.titulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px ;
+    text-align: center;
+}
+.Sub-texto{
+    margin-left: 20px;
+}
+.caixas{
+     display: flex;
+     width: flex;
+     height: flex;
+     border: dashed, grey, 2px; 
+}
+.caixas ul{
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
+}
+.caixas li{
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+}
