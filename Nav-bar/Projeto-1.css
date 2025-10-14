@@ -1,0 +1,71 @@
+body{
+    font-family     : arial;
+    background-color: bisque;
+    margin          : 0px;
+    padding         : 0px;
+    height          : 100vh;
+
+}
+
+#Explorar{
+    color  : black;
+    padding: 15px;
+}
+#Explorar:hover{
+background-color: rgb(209, 209, 209);
+border-radius   : 50px;
+
+}
+#Logo{
+    padding-left: 20px;
+    height      : 90px;
+}
+nav{
+    display         : flex;
+    justify-content : space-between;
+    text-align      : center;
+    align-items     : center;
+    background-color: white;
+}
+nav > div{
+display        : flex;
+justify-content: space-between;
+align-content  : center;
+align-items    : center;
+gap            : 10px;
+}
+nav a{
+    font-weight    : bold;
+    color          : rgb(22, 103, 184);
+    text-decoration: none;
+}
+
+.azul{
+    display: flex;
+    gap    : 30px;
+    padding: 20px;
+}
+#Entrar{
+    color           : white;
+    background-color: red;
+    border          : 0px solid black;
+    border-radius   : 10px;
+    height          : 45px;
+    width           : 80px;
+    font-size       : 15px;
+}
+#Entrar:hover{
+    background-color: rgb(223, 0, 0);
+}
+#Criar-Conta{
+    background-color: rgb(209, 209, 209);
+    border          : 0px solid black;
+    border-radius   : 10px;
+    height          : 45px;
+    width           : 100px;
+    font-size       : 15px;
+    margin-right    : 20px;
+}
+#Criar-Conta:hover{
+    background-color: rgb(180, 180, 180);
+}

@@ -1,0 +1,28 @@
+body{
+    font-family: "Open Sans";
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+ text-decoration: none;
+
+ font-family: arial;
+
+}
+.card img{
+ width        : 250px;
+ height       : 140px;
+ border-radius: 10px;
+}
+.card h2{
+ font-size: 16px;
+ color    : rgb(58, 58, 58);
+}
+.card p{
+    font-size: 13px;
+    color: rgb(75 ,75 ,75);
+}

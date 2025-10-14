@@ -1,0 +1,42 @@
+nav{
+    background-color: skyblue;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+body{
+    margin-top: 50px;
+    background-image: url(mkm5.jpg);
+    color: whitesmoke;
+}
+h1{
+    margin-left: 50px;
+    font-size: 50px;
+    padding-top: 20px;
+}
+.sub{
+    padding: 20px;
+}
+.box{
+    background-color: rgb(29, 29, 29);
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    text-decoration: none;
+}
+.box:hover{
+    transition: 2s;
+    font-size: 400%;
+    height: 100px;
+    width: 100px;
+}

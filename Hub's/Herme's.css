@@ -1,0 +1,52 @@
+body{
+    background-color: #16161d;
+    margin          : 0%;
+    padding         : 0%;
+    height          : 100vh;
+}
+nav{
+    padding         : 1%;
+    margin-bottom   : 20px;
+    color           : gold;
+    font-family     : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display         : flex;
+    height          : 10%;
+    width           : 100%;
+    background-color: black;
+    border          : 3px beige solid;
+    align-items     : center;
+    justify-content : space-evenly;
+}
+nav .Links a{
+    text-decoration: none;
+    /*LEMBRAR!*/
+    color          : gold;
+    padding        : 2px;
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+    text-align     : bottom;
+
+}
+#logo{
+    border         : 1px solid red;
+    width          : 40%;
+    height         : 60%;
+    display        : flex;
+    justify-content: flex-start;
+    align-self     : center;
+    align-content  : flex-start;
+    flex-direction : row;
+}
+main{
+
+}
+.about-main b{
+    padding: 20px;
+    color: gold;
+    font-size: 30px;
+}
+.about-main img{
+    border: 1px solid red;
+    border-radius: 100%;
+}

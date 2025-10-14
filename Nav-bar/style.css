@@ -1,0 +1,48 @@
+
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-image: url(kFEmcZj.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+*{
+    font-family: 'Arial';
+}
+
+nav{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.554);
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+nav > div{
+    display: flex;
+    gap: 16px;
+    border: 1px solid blue;
+}
+
+nav a{
+    color: white;
+    transition: 1s;
+    text-decoration: none;
+}
+
+nav:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s;
+}
+nav:hover a{
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
