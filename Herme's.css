@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Thin";
+    src        : url(Fonts/Aaargh.ttf);
+}
+
+body{
+    margin          : 0%;
+    padding         : 0%;
+    height          : 100vh;
+}
+nav{
+    padding         : 1%;
+    margin-bottom   : 20px;
+    color           : gold;
+    font-family     : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display         : flex;
+    height          : 10%;
+    width           : 100%;
+    background-color: black;
+    border          : 3px beige solid;
+    align-items     : center;
+    justify-content : space-evenly;
+}
+nav .Links{
+    display: flex;
+    gap: 20px;
+}
+nav .Links a{
+    text-decoration: none;
+    /*LEMBRAR!*/
+    color          : gold;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#logo{
+    border: 1px solid red;
+    width : 450px;
+    height: 70px;
+}
+.about-main b{
+    margin: 20px;
+    padding  : 20px;
+    color    : gold;
+    font-size: 30px;
+}
+.box{
+    background-color: rgb(119, 32, 0);
+    border          : 5px solid rgb(66, 18, 0);
+    border-radius   : 20px;
+    margin          : 40px;
+
+}
+.box a{
+    text-decoration: none;
+}
+.box h1{
+    color: rgb(206, 121, 81);
+    padding-left: 20px;
+    font-size: 50px;
+}
+.box h1:hover{
+    text-decoration: underline rgb(173, 102, 69);
+}
+.box p{
+    font-family : "Thin";
+    color       : white;
+    padding-left: 20px;
+    font-size   : 30px;
+}
