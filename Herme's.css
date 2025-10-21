@@ -7,15 +7,26 @@ body{
     margin          : 0%;
     padding         : 0%;
     height          : 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: url(Giulio_Romano_-_The_Gods_of_Olympus_trompe_loeil_ceiling_from_the_Sala_dei_Giganti_1528_-_\(MeisterDrucke-318954\).jpg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: -1;
 }
 nav{
     padding         : 1%;
-    margin-bottom   : 20px;
+    margin-bottom   : 70px;
     color           : gold;
     font-family     : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display         : flex;
     height          : 10%;
-    width           : 100%;
     background-color: black;
     border          : 3px beige solid;
     align-items     : center;
@@ -34,7 +45,6 @@ nav a:hover{
     text-decoration: underline;
 }
 #logo{
-    border: 1px solid red;
     width : 450px;
     height: 70px;
 }
@@ -43,6 +53,9 @@ nav a:hover{
     padding  : 20px;
     color    : gold;
     font-size: 30px;
+    background-color: rgb(119, 32, 0);
+    border          : 2px solid rgb(66, 18, 0);
+    border-radius: 50px;
 }
 .box{
     background-color: rgb(119, 32, 0);
@@ -67,4 +80,28 @@ nav a:hover{
     color       : white;
     padding-left: 20px;
     font-size   : 30px;
+}
+footer{
+    margin          : 0%;
+    padding         : 0%;
+    height          : 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.foot{
+    background-color: rgb(119, 32, 0);
+}
+
+.foot p{
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.foot a{
+    text-decoration: none;
 }
