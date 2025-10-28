@@ -1,52 +1,131 @@
+@font-face {
+    font-family: "Thin";
+    src        : url(Fonts/Aaargh.ttf);
+}
+
 body{
-    background-color: #16161d;
     margin          : 0%;
     padding         : 0%;
     height          : 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background-image: url(Giulio_Romano_-_The_Gods_of_Olympus_trompe_loeil_ceiling_from_the_Sala_dei_Giganti_1528_-_\(MeisterDrucke-318954\).jpg);
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    z-index: -1;
 }
 nav{
     padding         : 1%;
-    margin-bottom   : 20px;
+    margin-bottom   : 70px;
     color           : gold;
     font-family     : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display         : flex;
     height          : 10%;
-    width           : 100%;
     background-color: black;
     border          : 3px beige solid;
     align-items     : center;
     justify-content : space-evenly;
 }
+nav .Links{
+    display: flex;
+    gap: 20px;
+}
 nav .Links a{
     text-decoration: none;
     /*LEMBRAR!*/
     color          : gold;
-    padding        : 2px;
-    display        : flex;
-    flex-wrap      : wrap;
-    justify-content: space-around;
-    text-align     : bottom;
-
+}
+nav a:hover{
+    text-decoration: underline;
 }
 #logo{
-    border         : 1px solid red;
-    width          : 40%;
-    height         : 60%;
-    display        : flex;
-    justify-content: flex-start;
-    align-self     : center;
-    align-content  : flex-start;
-    flex-direction : row;
-}
-main{
-
+    width : 450px;
+    height: 70px;
 }
 .about-main b{
-    padding: 20px;
-    color: gold;
+    margin: 20px;
+    padding  : 20px;
+    color    : gold;
     font-size: 30px;
+    background-color: rgb(119, 32, 0);
+    border          : 2px solid rgb(66, 18, 0);
+    border-radius: 50px;
 }
-.about-main img{
-    border: 1px solid red;
-    border-radius: 100%;
+.main-project b{
+    margin: 20px;
+    padding  : 20px;
+    color    : gold;
+    font-size: 30px;
+    background-color: rgb(119, 32, 0);
+    border          : 2px solid rgb(66, 18, 0);
+    border-radius: 50px;
+}
+.box{
+    background-color: rgb(119, 32, 0);
+    border          : 5px solid rgb(66, 18, 0);
+    border-radius   : 20px;
+    margin          : 40px;
+
+}
+.box a{
+    text-decoration: none;
+}
+.box h1{
+    color: rgb(206, 121, 81);
+    padding-left: 20px;
+    font-size: 50px;
+}
+.box h1:hover{
+    text-decoration: underline rgb(173, 102, 69);
+}
+.box p{
+    font-family : "Thin";
+    color       : white;
+    padding-left: 20px;
+    font-size   : 30px;
+}
+.yet{
+    padding-top: 700px;
+    font-size: 20px;
+    color: white;
+}
+footer{
+    margin          : 0%;
+    padding         : 0%;
+    height          : 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.foot{
+    background-color: rgb(119, 32, 0);
+}
+
+.foot p{
+    color: white;
+    font-family: "Thin";
+    font-size: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.foot a{
+    text-decoration: none;
+}
+.foot b{
+    color: white;
+    font-family: "Thin";
+    font-size: 50px;
+    padding-top: 0px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
