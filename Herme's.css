@@ -57,6 +57,15 @@ nav a:hover{
     border          : 2px solid rgb(66, 18, 0);
     border-radius: 50px;
 }
+.main-project b{
+    margin: 20px;
+    padding  : 20px;
+    color    : gold;
+    font-size: 30px;
+    background-color: rgb(119, 32, 0);
+    border          : 2px solid rgb(66, 18, 0);
+    border-radius: 50px;
+}
 .box{
     background-color: rgb(119, 32, 0);
     border          : 5px solid rgb(66, 18, 0);
@@ -81,13 +90,70 @@ nav a:hover{
     padding-left: 20px;
     font-size   : 30px;
 }
+.box-img{
+    background-color: rgb(119, 32, 0);
+    border          : 5px solid rgb(66, 18, 0);
+    border-radius   : 20px;
+    margin          : 40px;
+    display: flex;
+}
+.box-img a{
+    text-decoration: none;
+}
+.box-img h1{
+    color: rgb(206, 121, 81);
+    padding-left: 20px;
+    font-size: 50px;
+}
+.box-img h1:hover{
+    text-decoration: underline rgb(173, 102, 69);
+}
+.box-img p{
+    font-family : "Thin";
+    color       : white;
+    padding-left: 20px;
+    font-size   : 30px;
+}
+.box-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 10px;
+}
+.box-img .left{
+    display       : flex;
+    flex-direction: column;
+}
+.box-img .left h1{
+    display: flex;
+    align-items: flex-end;
+}
+.box-img .right{
+    display    : flex;
+    align-items: flex-end;
+}
+.you-are{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding  : 20px;
+    color    : gold;
+    font-size: 30px;
+    background-color: rgb(99, 22, 0);
+    border          : 3px solid rgb(56, 18, 0);
+    border-radius: 50px;    
+}
+.yet{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: black;
+}
 footer{
     margin          : 0%;
     padding         : 0%;
-    height          : 100vh;
     display: flex;
     flex-direction: column;
-
 }
 .foot{
     background-color: rgb(119, 32, 0);
@@ -104,4 +170,14 @@ footer{
 }
 .foot a{
     text-decoration: none;
+}
+.foot b{
+    color: white;
+    font-family: "Thin";
+    font-size: 50px;
+    padding-top: 0px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
