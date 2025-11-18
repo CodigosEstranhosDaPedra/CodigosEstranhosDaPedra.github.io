@@ -27,8 +27,8 @@ nav{
     font-family     : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display         : flex;
     height          : 10%;
-    background-color: black;
-    border          : 3px beige solid;
+    background-color: rgb(99, 22, 0);
+    border          : 3px rgb(36, 8, 0) solid;
     align-items     : center;
     justify-content : space-evenly;
 }
@@ -157,6 +157,7 @@ footer{
 }
 .foot{
     background-color: rgb(119, 32, 0);
+    outline: 3px solid rgb(56, 18, 0);
 }
 
 .foot p{
