@@ -35,6 +35,7 @@ nav{
 nav .Links{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 nav .Links a{
     text-decoration: none;
@@ -89,6 +90,13 @@ nav a:hover{
     color       : white;
     padding-left: 20px;
     font-size   : 30px;
+}
+.box p a{
+    text-decoration: none;
+    color: rgb(206, 121, 81);
+}
+.box p a:hover{
+    text-decoration: underline rgb(173, 102, 69);
 }
 .box-img{
     background-color: rgb(119, 32, 0);
